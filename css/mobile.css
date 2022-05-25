@@ -1,0 +1,77 @@
+#navbar{
+     height: 180px;
+     position: relative;
+}
+
+#navbar-container{
+    flex-direction: column;
+    padding: 20px 0;
+}
+#navbar-items{
+     flex-direction: column;
+     text-align: center;
+     width: 100%;
+}
+
+/* Esse proximo comando aplica efeito apenas na da linha (2) conforme esta entre o parentes */
+
+#navbar-items li:nth-child(2){
+      border-top: 1px solid #333;
+      border-bottom: 1px solid #333;
+}
+
+/* Showcase */
+
+#showcase{
+      padding: 40px;
+}
+
+/* Clients */
+
+#clients-container{
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.clients{
+    width: 50%;
+}
+
+/* Features */
+
+#features-container{
+        grid-template-columns: 1fr;
+}
+
+#features-container .feature:nth-child(2){
+      margin: 15px 0;
+}
+
+#product-container{
+      flex-direction: column;
+}
+
+#item{
+    width: 90%;
+}
+
+.item{
+      margin: 0 10px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+}
+
+/* Testemunials */
+
+.Testemunials{
+      flex-direction: column;
+      text-align: center;
+}
+
+#gallery-container{
+       grid-template-columns: 1fr;
+}
+
+.gallery-imagem{
+      width: 100%;
+}
